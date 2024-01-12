@@ -64,5 +64,28 @@ ul li a{
     border-radius: 8px;
     background: #FF900E;
     margin-bottom: 5px;
+    cursor: pointer;
      
+ }
+ .banner img{
+    width: 100%;
+ }
+ @media screen  and (max-width:576px) {
+      header{
+        padding: 20px ;
+      }
+      nav{
+        flex-direction: column;
+      }
+    
+ }
+ @media screen and (min-width:576px) and (max-width:992){
+    header{
+        padding: 30px;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    
  }
