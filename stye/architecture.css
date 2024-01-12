@@ -71,28 +71,10 @@ ul li a{
  .banner img{
     width: 100%;
  }
- @media screen  and (max-width:576px) {
-      header{
-        padding: 20px ;
-      }
-      nav{
-        flex-direction: column;
-      }
-    
- }
- @media screen and (min-width:576px) and (max-width:992){
-    header{
-        padding: 30px;
-    }
-    nav{
-        flex-direction: column;
-    }
 
-    
- }
  main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
  }
  .teams-container{
     display: flex;
@@ -142,3 +124,37 @@ ul li a{
     line-height: 26px; 
 
  }
+
+
+
+
+
+
+
+ @media screen  and (max-width:576px) {
+    header{
+      padding: 20px ;
+    }
+    nav,
+    .teams-container{
+      flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns:1fr;
+    }
+     
+  
+}
+@media screen and (min-width:576px) and (max-width:992){
+  header{
+      padding: 30px;
+  }
+  nav {
+      flex-direction: column;
+  }
+  .teams-container{
+    flex-direction: column;
+  }
+
+  
+}
