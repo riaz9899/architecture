@@ -65,6 +65,7 @@ ul li a{
     background: #FF900E;
     margin-bottom: 5px;
     cursor: pointer;
+    border: none;
      
  }
  .banner img{
@@ -88,4 +89,56 @@ ul li a{
     }
 
     
+ }
+ main{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+ .teams-container{
+    display: flex;
+    align-items: center;
+ }
+ .teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+ }
+ .team-contant{
+    padding: 0 70px;
+ }
+ .teams-title{
+    color:   #727272;
+    
+    font-size: 45px;
+    
+    font-weight: 500;
+     
+
+ }
+ .hit1{
+    color:   #131313;
+     
+    font-size: 45px;
+     
+    font-weight: 700;
+     
+    
+ }
+ .hit2{
+    color: #FF900E;
+     
+    font-size: 45px;
+    
+    font-weight: 700;
+    
+
+ }
+ .teams-des{
+    color:  #727272;
+     
+    font-size: 16px;
+     
+    font-weight: 400;
+    line-height: 26px; 
+
  }
